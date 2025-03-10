@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
 @import url(importer.css);
 
 *,
@@ -19,7 +18,7 @@ header {
   padding-block: 1rem;
   width: min(64rem, 100% - 40px);
   margin-inline: auto;
-  font-family: "inter", sans-serif;
+  font-family: monospace, sans-serif;
 }
 
 h1 {
