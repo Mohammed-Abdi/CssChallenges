@@ -9,3 +9,11 @@ whatIsThis.addEventListener("click", () => {
 main.addEventListener("click", () => {
   popUp.classList.remove("show");
 });
+
+//dayTwo
+
+const menu = document.querySelector(".dayTwo .container");
+
+menu.addEventListener("click", () => {
+  menu.classList.toggle("close");
+});
