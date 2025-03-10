@@ -23,7 +23,7 @@
 
 .dayOne .number-one {
   display: flex;
-  transform: translateX(7.5px);
+  transform: translateX(4px);
   z-index: 2;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .dayOne .zero.second {
-  transform: translateX(-7.5px);
+  transform: translateX(-12px);
 }
 
 .dayOne .text {

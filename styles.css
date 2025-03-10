@@ -43,7 +43,7 @@ main {
 .frame {
   width: 300px;
   aspect-ratio: 1/1;
-  border-radius: 1rem;
+  border-radius: 0.25rem;
   box-shadow: 4px 8px 16px rgba(0, 0, 0, 0.1);
 }
 
