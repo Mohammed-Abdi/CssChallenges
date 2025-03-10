@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap");
+
 @import url(importer.css);
 
 *,
@@ -11,7 +13,7 @@
 body {
   background-color: #fff;
   color: #000;
-  font-family: monospace, sans-serif;
+  font-family: "inter", sans-serif;
 }
 
 header {
@@ -21,7 +23,7 @@ header {
   padding-block: 1.25rem;
   width: min(64rem, 100% - 40px);
   margin-inline: auto;
-  font-family: monospace, sans-serif;
+  font-family: "inter", sans-serif;
 }
 
 .header {
@@ -39,7 +41,7 @@ h1 {
 .whatIsThis {
   padding: 0.625rem 1.25rem;
   font-family: inherit;
-  font-weight: 900;
+  font-weight: 500;
   font-size: 0.875rem;
   white-space: nowrap;
   border: none;
@@ -92,7 +94,7 @@ main {
   gap: 0.625rem;
   font-size: 1.5rem;
   padding: 1rem;
-  font-weight: 900;
+  font-weight: 600;
 }
 
 .colored {
