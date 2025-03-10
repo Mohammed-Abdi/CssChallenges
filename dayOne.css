@@ -8,6 +8,8 @@
   width: 300px;
   gap: 0.46875rem;
   font-family: "Courier New", Courier;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   color: #fff;
   background: linear-gradient(to top right, #43399f, #4ec5ca);
 }
