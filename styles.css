@@ -11,6 +11,8 @@
 body {
   background-color: #fff;
   color: #000;
+  font-family: monospace, sans-serif;
+  font-weight: 900;
 }
 
 header {
@@ -51,9 +53,7 @@ main {
   justify-content: center;
   gap: 0.625rem;
   font-size: 1.5rem;
-  font-weight: 600;
   padding: 1rem;
-  font-family: monospace, sans-serif;
 }
 
 .colored {

@@ -60,7 +60,7 @@
   flex-direction: column;
   text-transform: uppercase;
   text-align: center;
-  font-weight: 600;
+  font-weight: 900;
 }
 
 .dayOne .big {
@@ -70,10 +70,4 @@
 
 .dayOne .small {
   font-size: 1.125rem;
-}
-
-@media (max-width: 768px) {
-  .dayOne .text {
-    font-weight: 900;
-  }
 }
