@@ -74,7 +74,7 @@ main {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  gap: 1.25rem;
+  gap: 2rem;
   width: min(64rem, 100% - 40px);
   margin-inline: auto;
   padding-block: 1.25rem;
