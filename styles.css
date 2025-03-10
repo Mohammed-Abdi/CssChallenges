@@ -16,17 +16,56 @@ body {
 }
 
 header {
-  text-align: center;
-  padding-block: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.625rem;
+  padding-block: 1.25rem;
   width: min(64rem, 100% - 40px);
   margin-inline: auto;
   font-family: monospace, sans-serif;
 }
 
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 h1 {
   opacity: 0.5;
   text-transform: uppercase;
-  font-size: 2rem;
+  font-size: 1rem;
+}
+
+.whatIsThis {
+  padding: 0.625rem 1.25rem;
+  font-family: inherit;
+  font-weight: 900;
+  font-size: 0.875rem;
+  white-space: nowrap;
+  border: none;
+  border-radius: 0.3rem;
+  background: #4f46e5;
+  color: #fff;
+  cursor: pointer;
+}
+
+.popUpDetail {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  max-width: 700px;
+  height: 0rem;
+  opacity: 0;
+  transform: translateY(-2rem);
+  overflow: hidden;
+  transition: all 0.5s ease-in-out;
+}
+
+.popUpDetail.show {
+  height: auto;
+  opacity: 1;
+  transform: translateY(0);
 }
 
 main {
