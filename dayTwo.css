@@ -10,6 +10,9 @@
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  position: relative;
+  width: 60px;
+  aspect-ratio: 1/1;
   cursor: pointer;
 }
 
@@ -20,10 +23,11 @@
   background: #fff;
   box-shadow: 3px 6px 12px rgba(0, 0, 0, 0.5);
   transition: all 0.3s ease-in-out;
+  position: absolute;
 }
 
 .dayTwo .bar:nth-child(1) {
-  transform: translateY(-9px);
+  transform: translateY(-20px);
   animation: bar1-close 0.7s forwards;
 }
 
@@ -32,7 +36,7 @@
 }
 
 .dayTwo .bar:nth-child(3) {
-  transform: translateY(9px);
+  transform: translateY(15px);
   animation: bar2-close 0.7s forwards;
 }
 
@@ -50,25 +54,25 @@
 
 @keyframes bar1-open {
   0% {
-    transform: translateY(-9px);
+    transform: translateY(-15px);
   }
   50% {
-    transform: translateY(6px);
+    transform: translateY(0);
   }
   100% {
-    transform: rotate(45deg) translateX(8px);
+    transform: rotate(45deg);
   }
 }
 
 @keyframes bar2-open {
   0% {
-    transform: translateY(9px);
+    transform: translateY(15px);
   }
   50% {
-    transform: translateY(-6px);
+    transform: translateY(0);
   }
   100% {
-    transform: rotate(-45deg) translateX(8px);
+    transform: rotate(-45deg);
   }
 }
 
@@ -77,10 +81,10 @@
     transform: rotate(-45deg);
   }
   50% {
-    transform: rotate(0deg) translateY(-6px);
+    transform: rotate(0deg) translateY(0);
   }
   100% {
-    transform: translateY(-9px);
+    transform: translateY(-15px);
   }
 }
 
@@ -89,9 +93,9 @@
     transform: rotate(45deg);
   }
   50% {
-    transform: rotate(0deg) translateY(6px);
+    transform: rotate(0deg) translateY(0);
   }
   100% {
-    transform: translateY(9px);
+    transform: translateY(15px);
   }
 }
