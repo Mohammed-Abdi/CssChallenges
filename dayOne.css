@@ -1,0 +1,76 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans:700,300);
+
+.frame.dayOne {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 300px;
+  gap: 0.46875rem;
+  font-family: "Courier New", Courier;
+  color: #fff;
+  background: linear-gradient(to top right, #43399f, #4ec5ca);
+}
+
+.dayOne .numbers {
+  display: flex;
+  align-items: center;
+}
+
+.dayOne .number {
+  border-radius: 1.5px;
+  background: #fff;
+  box-shadow: 3px 6px 12px rgba(0, 0, 0, 0.1);
+}
+
+.dayOne .number-one {
+  display: flex;
+  transform: translateX(7.5px);
+  z-index: 2;
+}
+
+.dayOne .one.partOne {
+  width: 15px;
+  height: 30px;
+  transform: rotate(50deg) translate(1.5px, -1.5px);
+  z-index: -1;
+}
+
+.dayOne .one.partTwo {
+  width: 18.75px;
+  height: 75px;
+}
+
+.dayOne .zero {
+  height: 75px;
+  aspect-ratio: 1/1;
+  border-radius: 50%;
+  border: 18.75px solid #fff;
+  background: #00000000;
+}
+
+.dayOne .zero.first {
+  z-index: 1;
+}
+
+.dayOne .zero.second {
+  transform: translateX(-7.5px);
+}
+
+.dayOne .text {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.dayOne .big {
+  font-size: 3.75rem;
+  font-weight: 600;
+  line-height: 52.5px;
+}
+
+.dayOne .small {
+  font-size: 1.125rem;
+  font-weight: 600;
+}
